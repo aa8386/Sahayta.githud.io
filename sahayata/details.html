@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sahayta form</title>
+    <link rel="stylesheet" href="css/details.css">
+</head>
+<style>
+    body {
+        background-color: #202020;
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>SAHAYTA FORM</h1>
+        <form action="thanku.html" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" >
+            <label for="Age">Age</label>
+            <input type="text" id="Age" >
+            <label for="Occupation">Occupation</label>
+            <input type="text" id="Occupation">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone">
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="Gender">Choose gender
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+                
+            </select>           
+
+            <label for="Nationality">Nationality</label>
+            <select name="Nationality" id="Natioality">
+                <option value="Indian">Indian</option>
+                <option value="American">American</option>
+                <option value="English">English</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="Yearly income">Yearly income</label>
+            <input type="text" id="Yearly income" >
+        </form>
+        <button type="submit" class="btn" onclick="openPopup()"> Submit</button>
+    </div>
+        <div class="popup" id="popup" >
+            <img src="image/tick.png.png">
+            <h2>Thank You!</h2>
+            <p class="thnks">Your details has been successfully submitted. Thanks!</p>
+            <button type="button" onclick="window.location.href = 'Sahayta.html';">OK</button>
+        </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+</script>
+</body>
+
+</html>

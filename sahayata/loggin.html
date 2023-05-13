@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<style>
+      body {
+        /* background-image: url("./pexels-tima-miroshnichenko-6693655.jpg"); */
+        background-image: url("D:\shopping-cart-with-wooden-elements_23-2148879396.avif");
+        background-size: cover;
+      }
+</style>
+<body>
+	<div class="container">
+		<h1>Login</h1>
+		<form action="index.html" method="POST">
+			<label for="email">Email</label>
+			<input type="email" id="email" >
+			<label for="password">Password</label>
+			<input type="password" id="password">
+		</form>
+		
+		<button type="submit" class="btn" onclick="openPopup()"> Submit</button>
+    </div>
+        <div class="popup" id="popup" >
+            <img src="image/tick.png.png">
+            <h2>Thank You!</h2>
+            <p class="thnks">You have logged in successfully!</p>
+            <button type="button" onclick="window.location.href = 'Sahayta.html';">OK</button>
+        </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+</script>
+<p>New User? <a href="register.html">Register here</a></p>
+</body>
+</html>

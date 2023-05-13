@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Registration | Online Shopping</title>
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<style>
+    body {
+      /* background-image: url("./pexels-tima-miroshnichenko-6693655.jpg"); */
+      background-image: url("D:\shopping-cart-with-wooden-elements_23-2148879396.avif");
+      background-size: cover;
+    }
+</style>
+<body>
+	<div class="container">
+		<h1>Registration</h1>
+		<form action="thanku.html" method="POST">
+			<label for="name">Name</label>
+			<input type="text" id="name">
+			<label for="email">Email</label>
+			<input type="email" id="email">
+			<label for="password">Password</label>
+			<input type="password" id="password">
+			<label for="phone">Phone</label>
+			<input type="text" id="phone">
+		</form>
+		<button type="submit" class="btn" onclick="openPopup()"> Submit</button>
+    </div>
+        <div class="popup" id="popup" >
+            <img src="image/tick.png.png">
+            <h2>Thank You!</h2>
+            <p class="thnks">Acciunt has been created successfully! </p>
+            <button type="button" onclick="window.location.href = 'Sahayta.html';">OK</button>
+        </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+</script>
+	</div>
+</body>
+</html>

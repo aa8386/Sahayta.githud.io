@@ -1,0 +1,281 @@
+body {
+    background-color: #0a0a0a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.zero {
+    text-align: center;
+    position: relative;
+
+}
+.logo{
+    height: 1.8rem;
+    margin: auto 0.2rem;
+}
+
+.one {
+    font-family: 'Cambay', sans-serif;
+    position: absolute;
+    color: black;
+    top: 7rem;
+    right: 30rem;
+    font-size: 6rem;
+}
+
+.but1 {
+    position: absolute;
+    top: 18rem;
+    right: 49rem
+}
+
+.but2 {
+    position: absolute;
+    top: 18rem;
+    right: 37rem
+}
+
+.navbtn{
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    color: white;
+}
+.navbtn:hover{
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    color: rgb(4, 163, 237);
+    border-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+}
+.icon {
+    padding: 0 1rem 0 0;
+}
+
+.nav-item {
+    padding: 0.2rem 3.4rem;
+}
+.nav-link:hover{
+    color: rgb(4, 163, 237);
+}
+.dropdown-menu{
+    background-color: #202020;
+}
+.navbar-brand {
+    padding: 0 0 0 1.5rem;
+    font-weight: 1000;
+}
+
+.sign {
+    right: 11rem;
+    border-radius: 0;
+}
+
+.col {
+    padding: 4rem 3rem 2rem;
+}
+
+.ficon {
+    padding: 0 0 1rem;
+    color: #5d95cf;
+}
+
+.ficon:hover {
+    color: #808080;
+}
+
+h2 {
+    color: #8c8c8c;
+    font-weight: 1000;
+}
+
+p {
+    color: #808080;
+    padding: 0 1rem 0;
+    margin: 0;
+}
+
+.carousel-item {
+    height: 36.625rem;
+    color: grey;
+    background-color: #202020;
+    text-align: center;
+}
+
+.carousel-caption{
+    bottom: 3.25rem
+}
+.viewname {
+    margin: 0.5rem auto;
+    color: rgb(133, 132, 132);
+    font-weight: 1000;
+}
+
+.viewpara{
+    font-size: 1.5rem;
+    margin: auto 8rem auto;
+}
+.viewtitle {
+    height: 6rem;
+    margin: 00;
+    padding-top: 1.5rem;
+    color: white;
+    font-weight: 1000;
+    background-color: #202020;
+}
+
+#contact {
+    color: white;
+    height: 19.625rem;
+    background-color: #202020;
+}
+
+hr {
+    size: 1.5rem;
+    margin: 0;
+    border-width: 0.2rem;
+}
+
+.firsthr {
+
+    position: absolute;
+    width: 26rem;
+    left: 15em;
+    bottom: 15rem;
+}
+
+.secondhr {
+    position: absolute;
+    width: 26rem;
+    right: 14.75rem;
+    bottom: 15rem;
+}
+
+.brand {
+    position: absolute;
+    font-weight: 1000;
+    right: 41rem;
+    bottom: 14rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.fontcontact {
+    position: absolute;
+    bottom: 11rem;
+    right: 39rem;
+}
+
+.fonticon {
+    color: #f9f8f8;
+    padding: 0 1rem;
+}
+
+.fonticon:hover {
+    color: rgb(4, 163, 237);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 8rem;
+    right: 36rem;
+}
+
+.card {
+    width: 25rem;
+    padding: -10rem;
+    background-color: #0a0a0a;
+    border-color: #808080;
+    color: aliceblue;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.worldcol {
+    padding: 1.2rem;
+}
+
+.btnbook {
+    background-color: rgb(251, 88, 88);
+    border-radius: 0;
+}
+
+.description {
+    margin: -3rem 6rem 6rem;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.featuretitle {
+    background-color: #0a0a0a;
+}
+
+.titledescription {
+    font-size: 1rem;
+}
+
+.titlebox {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.bestofindia {
+    background-color: #202020;
+}
+
+.introdescription{
+    color: rgb(250, 247, 247);
+}
+.wrapper {
+    font-family: 'Cambay', sans-serif;
+    box-sizing: content-box;
+    position: absolute;
+    text-align: left;
+    color: rgb(250, 247, 247);
+    top: 14.25rem;
+    right: 6.3rem;
+    font-size: 3rem;
+    margin: auto 24rem auto 6rem;
+}
+.animation1{
+    display: block;
+    padding-left: 10px;
+    color: aqua;
+    animation: spin_words 6s infinite;
+}
+.words{
+    overflow: hidden;
+    height: 70px;
+}
+@keyframes spin_words{
+    10%{
+        transform: translateY(-112%);
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-expand-lg .navbar-nav {
+    position: absolute;
+    flex-direction: row;
+    right: 2rem;
+}

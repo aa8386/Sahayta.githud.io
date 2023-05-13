@@ -1,0 +1,123 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #202020;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  }
+  .thnks{
+    color: black;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  form input[type=text], form input[type=email], form input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 0px rgba(235, 232, 232, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  form input[type=radio], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 0px rgba(235, 232, 232, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  form input[type=text]:focus, form input[type=email]:focus, form input[type=password]:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 5px 0px rgba(153, 151, 151, 0.5);
+  }
+  
+  form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form input[type=submit]:hover {
+    background-color: #3e8e41;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+  }
+  
+  body{
+    background-color: #202020;
+  }
+  .popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popoup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin:30px 0 10px;
+}
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn{
+  padding: 14px 49px;
+  background: #3fd258;
+  border: 10;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 9px;
+}
